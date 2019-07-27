@@ -1,0 +1,11 @@
+syntax="proto2";
+
+// 定义 protobuf 中的结构体.
+// 这个结构体会被自动生成 C++ 代码中的一个 类
+// 同一个 message 中的序号不能重复
+message Hello {
+  // required 表示 name 字段必须设置
+  required string name = 1;
+  // optional 表示 score 字段可有可无
+  optional int32 score = 2;
+};

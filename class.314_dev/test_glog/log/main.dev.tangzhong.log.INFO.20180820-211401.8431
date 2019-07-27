@@ -1,0 +1,6 @@
+Log file created at: 2018/08/20 21:14:01
+Running on machine: dev
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0820 21:14:01.309819  8431 main.cc:9] log info
+W0820 21:14:01.310144  8431 main.cc:11] log warning
+E0820 21:14:01.310261  8431 main.cc:13] log error
